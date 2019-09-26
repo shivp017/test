@@ -1,0 +1,20 @@
+<div class="header bg-cyan opacity-15 pb-8 pt-1 pt-md-8"></div>
+
+<div class="container-fluid">
+    <div class="row mt-4">
+        <div class="col-xl-11 mb-8 mb-xl-5">
+            <div class="postedideas">
+                <h2 class="mb-3 align-items-center">
+                    <span class="align-items-center">Posted Ideas</span>
+                </h2>
+                <mat-card *ngFor="let card of ideaCardsDatas let index=index" class="cardGroup" cols="cols">
+                    <mat-card class="matCard">
+                        <mat-card-title>{{card.title}}</mat-card-title>
+                        <mat-card-content>{{card.description}}</mat-card-content>
+                        <button (click)="getIdeaDetails(index)" [routerLink]="['ideaview']" class="button2" type="button">View</button>
+                    </mat-card>
+                </mat-card>
+            </div>
+        </div>
+    </div>
+</div>

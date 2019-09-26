@@ -1,0 +1,163 @@
+<!-- image for profile background -->
+<div class="header bg-cyan pb-4 pt-3 pt-lg-8 d-flex align-items-center"
+  style="min-height: 230px;">
+  <span class="mask bg-cyan"></span>
+  <div class="container-fluid d-flex align-items-center">
+    <div class="row">
+      <div class="col-lg-7 col-md-10">
+        <!-- <h1 class="display-2 text-white"> Hello {{ideaHamsterData.name}}</h1> -->
+        <!-- <h2 class="text-white mt-0 mb-5">Welcome to SquadNinja</h2> -->
+        <!-- <a (click)="onSubmitUpdate()" class="btn btn-info">Save profile</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid mt--7">
+  <div class="row">
+    <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+      <div class="card card-profile shadow">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 order-lg-2">
+            <div class="card-profile-image">
+              <a href="javascript:void(0)">
+                <img src="assets/img/theme/rty1.png" class="rounded-circle">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+          <div class="d-flex justify-content-between">
+          </div>
+        </div>
+        <div class="card-body pt-0 pt-md-4">
+          <div class="row">
+            <div class="col">
+              <div class="card-profile-stats d-flex justify-content-center mt-md-5">
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <h3>
+              {{ideaHamsterData.name}}<span class="font-weight-light"></span>
+            </h3>
+            <div class="h5 mt-4">
+              <i class="ni business_briefcase-24 mr-2">Idea Hamster</i>
+            </div>
+            <div>
+              <i class="ni education_hat mr-2"></i>
+            </div>
+            <hr class="my-4" />
+            <p></p>
+            <a href="javascript:void(0)"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-8 order-xl-1">
+      <div class="card bg-secondary shadow">
+        <div class="card-header bg-white border-0">
+          <div class="row align-items-center">
+            <div class="col-8">
+              <h3 class="mb-0">My account</h3>
+            </div>
+           
+          </div>
+        </div>
+        <div class="card-body">
+          <form>
+            <h6 class="heading-small text-muted mb-4">User information</h6>
+            <div class="pl-lg-4">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label class="form-control-label" for="input-username" ><b>Name</b></label>
+                    <input [(ngModel)]="ideaHamsterData.name" name="name" type="text" id="input-username"
+                      class="form-control form-control-alternative" placeholder="Username" value="">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label class="form-control-label" for="input-email"><b>Email</b></label>
+                    <input name="email" [(ngModel)]="ideaHamsterData.email" type="email" id="input-email"
+                      class="form-control form-control-alternative" placeholder={{ideaHamsterData.email}}>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="my-4" />
+
+            <h6 class="heading-small text-muted mb-4">Contact information</h6>
+            <div class="pl-lg-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="form-control-label" for="input-address"><b>Mobile Number</b></label>
+                    <b><input type="text" name="mobileno" [(ngModel)]="ideaHamsterData.mobileNo" class="form-control form-control-alternative"
+                      placeholder="Mobilenumber" value=""></b>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 text-center">
+              <button class="button3" (click)="onSubmitUpdate()">Save Profile</button>
+            </div>
+            <!-- <div class="pl-lg-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="form-control-label" for="input-address">Address</label>
+                    <input id="input-address" class="form-control form-control-alternative" placeholder="Home Address"
+                      value="Kormanagala" type="text">
+                  </div>
+                </div>
+              </div> -->
+              <!-- <div class="row">
+                <div class="col-lg-4">
+                  <div class="form-group">
+                    <label class="form-control-label" for="input-city">City</label>
+                    <input type="text" id="input-city" class="form-control form-control-alternative" placeholder="City"
+                      value="Bangalore">
+                  </div>
+                </div> -->
+                <!-- <div class="col-lg-4">
+                  <div class="form-group">
+                    <label class="form-control-label" for="input-country">Country</label>
+                    <input type="text" id="input-country" class="form-control form-control-alternative"
+                      placeholder="Country" value="India">
+                  </div>
+                </div> -->
+                <!-- <div class="col-lg-4">
+                  <div class="form-group">
+                    <label class="form-control-label" for="input-country">Postal code</label>
+                    <input type="number" id="input-postal-code" class="form-control form-control-alternative"
+                      placeholder="Postal code">
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <hr class="my-4" />
+
+            <h6 class="heading-small text-muted mb-4">About me</h6>
+            <div class="pl-lg-4">
+              <div class="form-group">
+                <label>About Me</label>
+                <textarea rows="4" class="form-control form-control-alternative"
+                  placeholder="A few words about you ..."></textarea>
+              </div>
+            </div> -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+[
+  { "name": "BlockChain"},
+  { "name": "BigData"},
+  { "name": "CloudComputing"},
+  { "name": "Android"},
+  { "name": "Network"},
+  { "name": "IoT"},
+  { "name": "Web"},
+  { "name": "CyberSecurity"},
+  { "name": "Database"},
+  { "name": "Birthday"},
+  { "name": "Wedding"},
+  { "name": "ConferenceManagement"},
+  { "name": "ProductLaunch"},
+  { "name": "Gettogether"}
+ ]

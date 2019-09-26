@@ -1,0 +1,276 @@
+.heading h1{
+  
+   padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+   
+    // text-align: center;
+    margin-left: 40%;
+    height: 100%;
+ }
+
+//  .mainclass
+// {
+// background-color:#C9E8E1;
+// } 
+ .title {
+    margin-top: 5%;
+   margin-left: 10%;
+ 
+ }
+ .projecttitle{
+    width:86%;
+ }
+ .title h6{
+    font-size: 22px;
+ }
+ .description{
+    margin-top: 15px;;
+    margin-left: 10%;
+ }
+ .projectdescription{
+    width: 86%;
+ }
+ .description h6{
+    font-size: 22px;
+ }
+ 
+ .duration{
+    margin-left: 10%;
+ }
+ .projectduration{
+    width:86%;
+ }
+ .duration h6{
+    font-size: 22px;
+ }
+
+// .input-row .domainSubdomian{
+//    font-size: 22px;
+//    margin-left: 10%;
+//    margin-top:40px;
+// }
+// .domainSubdomian {
+//    // border-collapse: separate;
+//    margin-top: 50px;
+//  }
+.projectdomain{
+   margin-top: 30px;
+}
+//  .subdomain {
+//    padding-left: 350px;
+//  }
+ .projectdomain{
+    margin-left: 10%;
+    width: 32%;
+ }
+ 
+ .projectsubdomains{
+    width:33%;
+   margin-left: 12%;
+  
+ }
+.skills{
+   padding-left: 10px;
+} 
+.experience{
+   padding-right: 60px;
+   width:30%;
+  
+}
+.noofpeople{
+   padding-right: 50px;
+}
+ 
+ .role{
+    margin-left: 10%;
+    margin-top: 30px;
+   //  width:80%;
+ }
+ 
+ .rolebody .projectrole {
+    width:70%;
+ }
+ .rolebody .projectskills{
+    width:70%;
+    padding-left: 10px;
+ }
+ .rolebody .projectnoofpeople{
+    width: 70%;
+ }
+ .rolebody .projectexperience{
+    width:80%;
+    padding-right: 20px;
+ }
+ .rolebody input {
+    width:80%;
+ }
+ .threadclass tr {
+    font-size: 18px;
+    
+ }
+ .btn{
+    margin-right: 60px;
+ }
+ 
+ .cost{
+    margin-top: 3px;
+    margin-left: 10%; 
+ }
+ .projectcost{
+    width: 86%;
+ }
+ 
+ .cost h6{
+    font-size: 22px;
+   //  padding-left: 10px;
+ }
+ .submit{
+    margin-left: 40%;
+    width:100%;
+   
+ }
+ 
+ 
+  .mat-raised-button{
+     width:100%;
+     font-size: 20px;
+  }
+ 
+ 
+         
+  @media screen and (max-width: 600px){
+//     .heading h1{
+   
+//        margin-top: 20px;
+//        text-transform: uppercase;
+//        font-size: 40px;
+//        text-align: center;
+//        margin-left:30%;
+//  }
+    
+//  .title {
+//     margin-top: 20%;
+//    margin-left: 20%;
+//  }
+//  .projecttitle{
+//     width:300%;
+//     font-size: 30px;
+//  }
+//  .title h6{
+//     font-size: 40px;
+//  }
+ 
+ 
+//  .description{
+//     margin-top: 15px;;
+//     margin-left: 20%;
+//  }
+//  .projectdescription{
+//     width: 300%;
+//     font-size: 30px;
+//  }
+//  .description h6{
+//     font-size: 40px;
+//  }
+ 
+//  .duration{
+//     margin-left: 20%;
+//  }
+//  .projectduration{
+//     width:300%;
+//     font-size: 30%;
+//  }
+//  .duration h6{
+//     font-size: 40%;
+//  }
+//  .domain{
+//     margin-left: 20%;
+//     margin-top: 70%;
+//  }
+//  .projectdomain{
+//     width:300%;
+//     font-size: 30%;
+//  }
+//  .domain h6{
+//     font-size: 40%;
+//  }
+ 
+//  .subdomains{
+//     margin-left: 20%;
+ 
+//  }
+//  .projectsubdomains{
+//     width:300%;
+//     font-size: 30%;
+//  }
+//  .subdomains h6{
+//     font-size: 40%;
+//  }
+ 
+//  .role{
+//     margin-left: 20%;
+//     margin-top: 25%;
+//     /* width: 100% */
+//  }
+ 
+//  .rolebody .projectrole {
+//     width:80%;
+//     font-size: 25%;
+//  }
+//  .rolebody .projectskills{
+//     width:80%;
+//     font-size: 25%;
+//  }
+//  .rolebody .projectnoofpeople{
+//     width: 80%;
+//     font-size: 25%;
+//  }
+//  .rolebody .projectexperience{
+//     width:80%;
+//     font-size: 25%;
+//  }
+//  .rolebody input {
+//     width:80%;
+//  }
+//  .threadclass tr {
+//     font-size: 29%;
+    
+//  }
+ 
+//  .location{
+//     margin-top: 25px;
+//     margin-left: 20%;
+//  }
+//  .projectlocation{
+//     width: 300%;
+//     font-size: 30%;
+//  }
+//  .location h6{
+//     font-size: 40%;
+//  }
+//  .cost{
+//     margin-top: 3%;
+//     margin-left: 20%; 
+//  }
+//  .projectcost{
+//     width: 300%;
+//     font-size: 30%;
+//  }
+ 
+//  .cost h6{
+//     font-size: 40%;
+//  }
+//  .submit{
+//     margin-left: 40%;
+   
+//  }
+ 
+//   .mat-raised-button{
+//      width:100%;
+//      font-size: 30%;
+//   }
+
+  
+
+  }

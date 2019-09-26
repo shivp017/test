@@ -1,0 +1,58 @@
+
+   body {
+    background-color:black;
+   }
+
+   .example-button-row{
+     float:right;
+   }
+
+    h4{
+     margin-top: 40px;
+   }
+   .example-container{
+     margin-top: 10px;
+   }
+
+   .cards{
+    display: flex;
+   }
+   .example-card {
+    max-width: 390px;
+    margin: 7px;
+  }
+   .example-header-image {
+    background-image: url('https://makeawebsitehub.com/wp-content/uploads/2017/04/wordpress-923188_640.jpg');
+    background-size: cover;
+   }
+   .container{
+    margin-top:2px;
+    margin-right: 100%;
+    margin-left: 1px;
+    background-color:white;
+    width: 100%;
+   }
+
+   @media screen and (max-width: 959px) {
+    /* Column Gap */
+    .cards > *:not(:last-child) {
+      margin-right: 32px;
+    }
+    /* Item sizing */
+    .cards {
+      flex: 0 1 calc(100% - 100%);
+    }
+  }
+  /* small size viewport */
+  @media screen and (max-width: 599px) {
+    .cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .cards > *:not(:last-child) {
+      margin-right: unset;
+      margin-bottom: 32px;
+    }
+  }
+   
